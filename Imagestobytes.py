@@ -1,6 +1,6 @@
 from PIL import Image
 
-img=Image.open('five.png')
+img=Image.open('eight.png')
 data=list(img.getdata())
 #print(data)
 for i in range(len(data)):
